@@ -1,0 +1,23 @@
+/* ... (önceki CSS kodunuz) ... */
+
+.sonuc-bolumu {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    text-align: left;
+}
+
+.sonuc-bolumu p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.sonuc-bolumu span {
+    font-weight: bold;
+    color: #28a745;
+    float: right; /* Sonucun sağa hizalanmasını sağlar */
+}
+
+.kapak-sonuc span {
+    color: #007bff; /* Kapak sonuçlarını farklı renkte gösterme */
+}

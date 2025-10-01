@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formül Hesaplayıcı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Formül Hesaplayıcı</h1>
+        
+        <label for="girdiRakam">Lütfen bir rakam girin:</label>
+        <input type="number" id="girdiRakam" placeholder="Örn: 100" value="100">
+        
+        <button onclick="hesapla()">Hesapla</button>
+        
+        <div class="sonuc-bolumu">
+            <h2>Hesaplama Sonuçları:</h2>
+            
+            <p>Ana Sonuç: <span id="anaSonuc">0.00</span></p>
+            <p class="kapak-sonuc">Kapak 1 (Ana Sonuç - 8): <span id="kapak1Sonuc">0.00</span></p>
+            <p class="kapak-sonuc">Kapak 2 (Ana Sonuç + 8): <span id="kapak2Sonuc">0.00</span></p>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
